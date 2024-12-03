@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Community - Patient Profile Cards</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+
+        .contain {
+            width: 100%;
+            text-align: center;
+            padding: 20px;
+            margin-top: 100px;
+            margin-left:130px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            color: #333;
+            font-size: 28px;
+        }
+
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            width: 100%;
+            max-width: 1200px;
+            box-sizing: border-box;
+            /* overflow-y: auto; */
+            max-height: calc(100vh - 250px);
+            margin-top: 20px;
+            font-family: cursive;
+            font-size: large;
+            
+        }
+
+        .card {
+            width: 285px;
+            background-color:rgb(240, 188, 119);
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(20, 18, 18, 0.1);
+            padding: 20px;
+            box-sizing: border-box;
+            transition: transform 0.3s ease;
+            
+
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            display: block;
+        }
+
+        .profile-details {
+            text-align: center;
+        }
+
+        .profile-details h2 {
+            margin: 0;
+            padding: 0;
+            color: #333;
+            font-size: 20px;
+        }
+
+        .profile-details h3 {
+            margin: 5px 0;
+            color: #666;
+            font-size: 16px;
+        }
+
+        .profile-details p {
+            margin: 5px 0;
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+        <div class="container">
+
+            <a href="#" class="logo">
+                <img src="./assets/css/images/log.jpg" width="90" height="40" alt="EduWeb logo">
+            </a>
+
+            <nav class="navbar" data-navbar>
+
+                <div class="wrapper">
+                    <a href="#" class="logo">
+                        <img src="./assets/css/images/log.jpg" width="162" height="50" alt="EduWeb logo">
+                    </a>
+
+                    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+
+                <ul class="navbar-list">
+
+                    <li class="navbar-item">
+                        <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#about" class="navbar-link" data-nav-link>About</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#courses" class="navbar-link" data-nav-link>Features</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" class="navbar-link" data-nav-link>Community</a>
+                        <div class="dropdown-content">              
+                          <a href="mute.html">Mute</a>
+                          <a href="deaf.html">Deaf</a>
+                          <a href="d&m.html">Deaf and Mute</a>
+                          <a href="blind.html">Blind</a>              
+                      </div>
+                      </li>
+
+                </ul>
+
+            </nav>
+
+            <div class="header-actions">
+
+                <button class="header-action-btn" aria-label="toggle search" title="Search">
+                    <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+                </button>
+
+                
+
+                <a href="#" class="btn has-before">
+                    <span class="span">Donate for our cause</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+                <button class="header-action-btn" aria-label="open menu" data-nav-toggler>
+                    <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+                </button>
+
+            </div>
+
+            <div class="overlay" data-nav-toggler data-overlay></div>
+
+        </div>
+    </header>
+
+
+    <div class="contain">
+
+        
+            
+           
+            <div class="card">
+                <img src="./assets/css/images/image(2).jpg" alt="Profile Picture" class="profile-img">
+                <div class="profile-details">
+                    <h2>Shane Sharma</h2>
+                    <h3>Age:30</h3>
+                    <p><b>Description:</b> Speaking-impairment from the age of 5 yrs.</p>
+                    <p><b>Gender:</b> Male</p>
+                    <p><b>Blood Type:</b> B+</p>
+                    <p><b>Medical History:</b> 100% Mute</p>
+                    <p><b>Job:</b> State level Badminton Player</p>
+                </div>
+            </div>
+
+           
+
+        </div>
+    </div>
+
+</body>
+
+</html>

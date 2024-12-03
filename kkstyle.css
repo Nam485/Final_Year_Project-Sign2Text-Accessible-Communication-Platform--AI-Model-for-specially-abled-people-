@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(240, 202, 152);
+}
+.kkcamera {
+  margin-top: 20px;
+  width: 1050px;
+  margin-left: 150px;
+}
+
+.kktitle {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  margin-top: 130px;
+  margin-left: 400px;
+  color: black;
+}
+
+.kkbuton1 {
+  background-color: #04aa6d; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.kkbutton2 {
+  background-color: #04aa6d; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  width: 190px;
+}
